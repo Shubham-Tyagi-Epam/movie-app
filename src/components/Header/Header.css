@@ -1,0 +1,28 @@
+.navbar.navbar-expand-lg.navbar-dark.bg-info {
+  background: transparent;
+  z-index: 200;
+}
+
+.header-img {
+  background: linear-gradient(to bottom, black 5%, transparent),
+    url("./../../assets/Images/movieHeaderBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  filter: blur(5px);
+  transform: translateY(-30px);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+}
+
+.header {
+  position: relative;
+}
+
+.movie-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

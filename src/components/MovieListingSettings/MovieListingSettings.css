@@ -1,0 +1,11 @@
+.bg-sort-param-inactive {
+  background-color: #484848;
+}
+.sort-param {
+  cursor: pointer;
+}
+
+.movie-listing-settings {
+  transform: translate(0, -50%);
+  z-index: 200;
+}

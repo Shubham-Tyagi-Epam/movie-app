@@ -1,0 +1,9 @@
+.navbar.navbar-expand-lg.navbar-dark.bg-info {
+  background: transparent;
+  z-index: 200;
+}
+
+.your-element {
+  box-shadow: rgba(252, 252, 255, 0.25) 0px 6px 12px -2px,
+    rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
+}

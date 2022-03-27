@@ -1,0 +1,30 @@
+.movie-background {
+  background: linear-gradient(to bottom, black, transparent 20%),
+    linear-gradient(to top, black, transparent 20%),
+    linear-gradient(to right, black, transparent 10%),
+    linear-gradient(to left, black, transparent 10%),
+    url("./../../assets/Images/movieHeaderBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateX(-11px);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  z-index: 20;
+}
+
+.movie-data {
+  position: relative;
+}
+
+.movie-foreground {
+  position: relative;
+  z-index: 100;
+}
+
+.movie-det {
+  z-index: -10;
+}
